@@ -37,41 +37,6 @@ src/
 └── index.js
 ```
 
----
-
-## ⚙️ Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-REACT_APP_GIPHY_API_KEY=your_giphy_api_key_here
-```
-
-⚠️ **Do not push `.env` to GitHub** (already added to `.gitignore`).
-
----
-
-## 📦 Installation & Setup
-
-```bash
-# Clone the repository
-git clone <your-repo-link>
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-```
-
-The app will run at:
-
-```
-http://localhost:3000
-```
-
----
-
 ## 🔁 How It Works
 
 * `useGif` custom hook handles API calls and loading state
@@ -85,5 +50,3 @@ http://localhost:3000
 🔗 [https://random-gif-red.vercel.app/](https://random-gif-red.vercel.app/)
 
 
-
-⭐ If you like this project, don’t forget to star the repo!
